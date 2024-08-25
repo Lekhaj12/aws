@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EC3 Model</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .form-group input, .form-group select, .form-group textarea {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>EC3 Model Configuration</h1>
+    <form action="#" method="post">
+        <div class="form-group">
+            <label for="event">Event:</label>
+            <input type="text" id="event" name="event" placeholder="Enter event">
+        </div>
+
+        <div class="form-group">
+            <label for="condition">Condition:</label>
+            <textarea id="condition" name="condition" rows="4" placeholder="Enter condition"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="action">Action:</label>
+            <textarea id="action" name="action" rows="4" placeholder="Enter action"></textarea>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+</body>
+</html>
